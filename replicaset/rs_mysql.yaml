@@ -16,7 +16,7 @@ spec:
         - name: regcred
       containers:
         - name: mysql
-          image: 383268345080.dkr.ecr.us-east-1.amazonaws.com/mysql:latest
+          image: 383268345080.dkr.ecr.us-east-1.amazonaws.com/mysql:v2
           ports:
             - containerPort: 3306
           env:
